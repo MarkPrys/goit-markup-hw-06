@@ -39,18 +39,8 @@
   text-transform: uppercase;
 }
 
-.logo-footer {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  color: var(--second-white-color);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  padding-bottom: 18px;
-}
+
+
 
 /*Navigaor*/
 .header .nav {
