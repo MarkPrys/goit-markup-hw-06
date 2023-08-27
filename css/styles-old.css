@@ -76,47 +76,10 @@
   flex-direction: row;
 }
 
-a {
-  text-decoration: none;
-}
 
-.nav-list {
-  gap: 40px;
-}
 
-.list-link {
-  position: relative;
-  color: var(--nav-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.list-link:hover,
-.list-link:focus,
-.list-link:active {
-  color: var(--link-hover-color);
-  text-decoration-color: var(--link-hover-color);
-}
 
-.list-link.current::after {
-  content: "";
-  position: absolute;
-  display: block;
-  color: var(--link-hover-color);
-  width: 100%;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: var(--link-hover-color);
-  border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  flex-shrink: 0;
-}
 
 /* Link */
 .link {
@@ -126,42 +89,7 @@ a {
 }
 
 /*Adress*/
-.adress-main {
-  font-style: normal;
-  margin-right: 0;
-  padding-right: 15px;
-}
 
-.adress-list {
-  gap: 40px;
-}
-
-.adress {
-  display: inline-block;
-  color: var(--main-grey-color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.adress:hover,
-.adress:focus,
-.adress:active {
-  color: var(--link-hover-color);
-}
-
-.contacts-tel {
-  list-style-type: none;
-  margin-left: 40px;
-}
-
-.contacts-mail {
-  list-style-type: none;
-}
 
 /*Index-Main*/
 .hero {
@@ -724,16 +652,7 @@ ul.list.team {
 
 /* Customers */
 
-.title-customers {
-  color: var(--nav-color);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
+
 
 .customers {
   max-height: 440px;
@@ -741,13 +660,7 @@ ul.list.team {
   padding-bottom: 120px;
 }
 
-.customers-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 24px;
-}
+
 
 .custom-list-item {
   display: flex;
@@ -755,32 +668,9 @@ ul.list.team {
   height: 88px;
 }
 
-.logo-companie {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
 
-  fill: var(--lightslate);
-  color: var(--lightslate);
-  border: 1px solid var(--lightslate);
-  border-radius: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.logo-companie:hover,
-.logo-companie:focus {
-  fill: var(--link-hover-color);
-  border-color: var(--link-hover-color);
-  color: var(--link-hover-color);
-}
 
-.logo-item {
-  fill: currentColor;
-  height: 100%;
-  width: 100%;
-}
+
 
 /* Modal Window */
 
