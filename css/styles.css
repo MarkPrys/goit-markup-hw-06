@@ -692,8 +692,8 @@ p {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   margin: 0 auto;
+  justify-content: space-between;
   gap: 72px 16px;
 }
 
@@ -701,7 +701,8 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 190px;
+  justify-content: center;
+  width: 168px;
   height: 88px;
   
 }
