@@ -1174,19 +1174,22 @@ a.link.link-mobile-menu:active {
 }
 
 @media screen and (min-width: 768px) and (max-width:1157.98px) {
-  .foot.container {
+  div.foot.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 768px;
-    margin-left: 108px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 110px;
   }
 
   .link.link-logo-footer {
     margin: 0;
   }
+
 
 }
 
@@ -1210,6 +1213,12 @@ a.link.link-mobile-menu:active {
 .footer-social-media-links {
   display: flex;
   gap: 16px;
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-social-media{
+    align-items: flex-start;
+  }
 }
 
 .link-social-footer {
@@ -1367,6 +1376,7 @@ p.footer-text-subscribe {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-left: 80px;
     
   
   }
@@ -1375,21 +1385,25 @@ p.footer-text-subscribe {
     width: 264px;
     height: 40px;
     flex-shrink: 0;
+    opacity: 1;
     padding-left: 16px;
   }
 
   .subscribe-form {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 24px;
   }
 
   .footer-text {
     width: 264px;
+    margin-bottom: 0;
   }
 
   p.footer-text-subscribe {
-    margin-bottom: 16px;
+    display: inline;
+    margin-bottom: 0;
   }
 }
 
