@@ -792,7 +792,7 @@ p {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding-top: 80px;
   padding-left: 40px;
   background-color: var(--main-white-color);
@@ -857,7 +857,7 @@ a.link.link-mobile-menu:active {
 }
 
 .mobile-menu-adress-item {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .mobile-menu-tel {
