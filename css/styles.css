@@ -792,7 +792,7 @@ p {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 220vw;
+  height: 100vw;
   padding-top: 80px;
   padding-left: 40px;
   background-color: var(--main-white-color);
